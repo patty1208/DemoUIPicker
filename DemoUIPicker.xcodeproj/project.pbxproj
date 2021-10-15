@@ -9,23 +9,33 @@
 /* Begin PBXBuildFile section */
 		C9542E3326F38E3C00F03A6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9542E3226F38E3C00F03A6A /* AppDelegate.swift */; };
 		C9542E3526F38E3C00F03A6A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9542E3426F38E3C00F03A6A /* SceneDelegate.swift */; };
-		C9542E3726F38E3C00F03A6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9542E3626F38E3C00F03A6A /* ViewController.swift */; };
 		C9542E3A26F38E3C00F03A6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9542E3826F38E3C00F03A6A /* Main.storyboard */; };
 		C9542E3D26F38E3C00F03A6A /* DemoUIPicker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C9542E3B26F38E3C00F03A6A /* DemoUIPicker.xcdatamodeld */; };
 		C9542E3F26F38E3F00F03A6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9542E3E26F38E3F00F03A6A /* Assets.xcassets */; };
 		C9542E4226F38E3F00F03A6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9542E4026F38E3F00F03A6A /* LaunchScreen.storyboard */; };
+		C9542E4A26F6DCC700F03A6A /* SlotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9542E4926F6DCC700F03A6A /* SlotViewController.swift */; };
+		C98990D02717CBBA00D319EF /* BasicPickerviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98990CF2717CBBA00D319EF /* BasicPickerviewViewController.swift */; };
+		C98990D2271818DF00D319EF /* InfiniteLoopPickerviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98990D1271818DF00D319EF /* InfiniteLoopPickerviewViewController.swift */; };
+		C98990D4271823E600D319EF /* CustomPickerviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98990D3271823E600D319EF /* CustomPickerviewViewController.swift */; };
+		C99B0F5227195C67004BA49E /* MultiplePickerviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99B0F5127195C67004BA49E /* MultiplePickerviewViewController.swift */; };
+		C99B0F542719BDBE004BA49E /* PickerviewAndTextfieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99B0F532719BDBE004BA49E /* PickerviewAndTextfieldViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C9542E2F26F38E3C00F03A6A /* DemoUIPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoUIPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9542E3226F38E3C00F03A6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9542E3426F38E3C00F03A6A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C9542E3626F38E3C00F03A6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C9542E3926F38E3C00F03A6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C9542E3C26F38E3C00F03A6A /* DemoUIPicker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DemoUIPicker.xcdatamodel; sourceTree = "<group>"; };
 		C9542E3E26F38E3F00F03A6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9542E4126F38E3F00F03A6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C9542E4326F38E3F00F03A6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9542E4926F6DCC700F03A6A /* SlotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotViewController.swift; sourceTree = "<group>"; };
+		C98990CF2717CBBA00D319EF /* BasicPickerviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicPickerviewViewController.swift; sourceTree = "<group>"; };
+		C98990D1271818DF00D319EF /* InfiniteLoopPickerviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfiniteLoopPickerviewViewController.swift; sourceTree = "<group>"; };
+		C98990D3271823E600D319EF /* CustomPickerviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPickerviewViewController.swift; sourceTree = "<group>"; };
+		C99B0F5127195C67004BA49E /* MultiplePickerviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplePickerviewViewController.swift; sourceTree = "<group>"; };
+		C99B0F532719BDBE004BA49E /* PickerviewAndTextfieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerviewAndTextfieldViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +68,14 @@
 		C9542E3126F38E3C00F03A6A /* DemoUIPicker */ = {
 			isa = PBXGroup;
 			children = (
+				C99B0F532719BDBE004BA49E /* PickerviewAndTextfieldViewController.swift */,
+				C99B0F5127195C67004BA49E /* MultiplePickerviewViewController.swift */,
+				C98990D3271823E600D319EF /* CustomPickerviewViewController.swift */,
+				C98990D1271818DF00D319EF /* InfiniteLoopPickerviewViewController.swift */,
+				C98990CF2717CBBA00D319EF /* BasicPickerviewViewController.swift */,
+				C9542E4926F6DCC700F03A6A /* SlotViewController.swift */,
 				C9542E3226F38E3C00F03A6A /* AppDelegate.swift */,
 				C9542E3426F38E3C00F03A6A /* SceneDelegate.swift */,
-				C9542E3626F38E3C00F03A6A /* ViewController.swift */,
 				C9542E3826F38E3C00F03A6A /* Main.storyboard */,
 				C9542E3E26F38E3F00F03A6A /* Assets.xcassets */,
 				C9542E4026F38E3F00F03A6A /* LaunchScreen.storyboard */,
@@ -141,10 +156,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9542E3726F38E3C00F03A6A /* ViewController.swift in Sources */,
 				C9542E3326F38E3C00F03A6A /* AppDelegate.swift in Sources */,
+				C98990D4271823E600D319EF /* CustomPickerviewViewController.swift in Sources */,
+				C98990D02717CBBA00D319EF /* BasicPickerviewViewController.swift in Sources */,
+				C9542E4A26F6DCC700F03A6A /* SlotViewController.swift in Sources */,
+				C99B0F542719BDBE004BA49E /* PickerviewAndTextfieldViewController.swift in Sources */,
 				C9542E3D26F38E3C00F03A6A /* DemoUIPicker.xcdatamodeld in Sources */,
+				C98990D2271818DF00D319EF /* InfiniteLoopPickerviewViewController.swift in Sources */,
 				C9542E3526F38E3C00F03A6A /* SceneDelegate.swift in Sources */,
+				C99B0F5227195C67004BA49E /* MultiplePickerviewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +321,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -329,6 +350,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
