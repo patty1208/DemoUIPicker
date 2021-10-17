@@ -11,19 +11,25 @@ class BasicPickerviewViewController: UIViewController {
     
     @IBOutlet weak var timePickerview: UIPickerView!
     @IBOutlet weak var timeLabel: UILabel!
-    
     @IBOutlet weak var showResultButton: UIButton!
     let formatter = DateFormatter()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         timePickerview.layer.borderWidth = 2
         timePickerview.layer.borderColor = UIColor(red: 87/255, green: 115/255, blue: 153/255, alpha: 1).cgColor
+        
+        timeLabel.text = "預計時間\n\n\n\n"
+        showResultButton.isEnabled = false
     }
     override func viewDidAppear(_ animated: Bool) {
         timePickerview.selectRow(0, inComponent: 0, animated: true)
     }
     
     @IBAction func showTimeResult(_ sender: UIButton) {
+        showResultButton.isEnabled = false
+        
         let hour = timePickerview.selectedRow(inComponent: 0)
         let min = timePickerview.selectedRow(inComponent: 1)
         let sec = timePickerview.selectedRow(inComponent: 2)
@@ -61,20 +67,12 @@ extension BasicPickerviewViewController: UIPickerViewDataSource, UIPickerViewDel
             return row.description
         }
     }
-    /*
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
-        if component == 0 {
-            hour = row.description
-        } else if component == 1 {
-            min = row.description
-        } else if component == 2 {
-            sec = row.description
-        }
         // 避免滑到底,畫面選擇和偵測選擇的不同, 會將畫面選擇的移動到偵測選擇的row
         timePickerview.selectRow(row, inComponent: component, animated: false)
-        // 選擇的時間以字串顯示
-        timeToString()
+        
+        showResultButton.isEnabled = true
+        timeLabel.text = "預計時間\n\n\n\n"
     }
-     */
 }
 
