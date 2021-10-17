@@ -14,13 +14,14 @@ class InfiniteLoopPickerviewViewController: UIViewController {
     let aNumber = 1000
     var numberOfRow = 0
     
-
     override func viewDidLoad() {
         super.viewDidLoad()
         numberOfRow = drinkList.count * aNumber
+        
         pickerview.layer.borderWidth = 0.2
         pickerview.layer.borderColor = UIColor(red: 87/255, green: 115/255, blue: 153/255, alpha: 1).cgColor
         
+        // pickerView row 初始位置
         let position = numberOfRow / 2
         pickerview.selectRow(position, inComponent: 0, animated: false)
     }
